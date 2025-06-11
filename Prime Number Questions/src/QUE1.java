@@ -16,7 +16,6 @@ public class QUE1 {
                 return n + " is not prime";  // Return immediately if divisible
             }
         }
-
         return n + " is prime";  // If no divisors found, it's prime
     }
 }
