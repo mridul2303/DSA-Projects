@@ -20,7 +20,7 @@ public class Rowcol2 {
             if (arr[row][mid] < target) {
                 cstart = mid + 1;
             } else {
-                cend + mid - 1;
+                cend = mid - 1;
             }
         }
         return new int[]{-1, -1};
