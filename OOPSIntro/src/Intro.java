@@ -14,6 +14,9 @@ public class Intro {
         Car c2 = new Car();
         System.out.println(c2.seats);
         System.out.println(c1.seats);
+        c2.changeengine("ev");
+
+
 
     }
 }
@@ -27,9 +30,13 @@ class Car{
     String engine;
     int price;
     int seats;
-    Car(){ //this is a constructor
+    void changeengine(String newengine){
+        engine = newengine;
+        System.out.println(engine);
+
+    }    Car(){ //this is a constructor
         this.engine="petrol";
-        this.price=1245; // this represents objects of Car 
+        this.price=1245; // this represents objects of Car
         this.seats=4;
     }
 }
