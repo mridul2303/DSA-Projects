@@ -3,15 +3,30 @@ import java.util.Arrays;
 
 public class test {
     public static void main(String[] args) {
-        int[] nums = {1, 1,2,2,3,4,5};
-        int i = 0;
-        findduplicates(nums,i);
-    }
-    static void findduplicates(int[] nums,int i){
-        for (int j = 1; j < nums.length; j++){
-            if (nums[i] != nums[j] ){
-                i++;
-                nums[i] = nums[j];
+        String[] arr = {"flower","flow","fly"};
+        int minlenth = checknoofchar(arr);
+        commonprefix(arr,minlenth);
             }
+           static int checknoofchar(String[] arr){
+        int min = arr[0].length() ;
+        for (int i=0; i< arr.length;i++){
+            if (arr[i].length() < min) {
+                min = arr[i].length();
+            }
+            }
+        return min;
         }
-        System.out.println(Arrays.toString(nums));}}
+static void commonprefix(String[] arr,int minlength){
+        StringBuilder prefix = new StringBuilder();
+        for (int i = 0; i <minlength ; i++){
+            char ch = arr[0].charAt(i);
+            for (int j = 1; j<arr.length;j++){
+                if (arr[j].charAt(i) != ch){
+
+
+                }
+            }
+            prefix.append(ch);
+        }
+    System.out.println(prefix.toString());
+    }}
