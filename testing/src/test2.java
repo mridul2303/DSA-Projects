@@ -1,21 +1,10 @@
-import com.sun.source.tree.WhileLoopTree;
-
 public class test2 {
     public static void main(String[] args) {
-        int x = 11222211;
-        System.out.println(ispalindrome(x));
+        int x = 16;
+        System.out.println(isPowerOfTwo(x));
     }
-    static boolean ispalindrome(int x){
-        String str = String.valueOf(x);
-        int i = 0 ;
-        while ( i < str.length()/2){
-            if (str.charAt(i) == str.charAt(str.length()-i-1))
-            {
-                i++;
-            }else {
-                return false;
-            }
-        }
-        return true ;
+
+    static boolean isPowerOfTwo(int x) {
+        return x > 0 && (x & (x - 1)) == 0;
     }
 }
