@@ -10,7 +10,7 @@ public class MoreAboutStatic {
         //it requires instance but function you are using does not require instance
         //you cannot use non static stuff without referencing their instance in a static context
         //hence i am referencing it
-        main();
+        //main();
     }
     void greets(){
         System.out.println("hey");

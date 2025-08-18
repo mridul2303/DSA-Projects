@@ -11,7 +11,7 @@ public class StaticVAr {
         // inside static method we can't use something non static
         //hence we need to make greetings static
 }
- void greeting (){
+ static void greeting (){
     System.out.println("hello world!");
 
 }}
