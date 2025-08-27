@@ -19,7 +19,34 @@ public void display(){
             node = node.next;
         }
     System.out.println("END");}
+//printing rev
+    //not completed yet
+    public void displayRev(){
+        Node node = head;
+        Node last = null;
+        while (node!=null){
+            System.out.println(node.val+" -> ");
+            last = node;
+            node = node.next;
+        }
+        System.out.println("END");}
+//to insert last element
+    public void insertLast(int val){
+        Node node = new Node(val);
+        Node last = head;
+        node.next = null;
+        if (head==null){
+            node.pre = null;
+            head = node;
+            return;
+        }
+        while (last.next != null){
+            last = last.next;
 
+        }
+last.next = node;
+        node.pre = last;
+    }
 
     private class Node{
         int val;
