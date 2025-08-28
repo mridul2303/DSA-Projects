@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayReurrsionQue/ArrayReurrsionQue.iml" filepath="$PROJECT_DIR$/ArrayReurrsionQue/ArrayReurrsionQue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binarysearch/Binarysearch.iml" filepath="$PROJECT_DIR$/Binarysearch/Binarysearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSA Projects.iml" filepath="$PROJECT_DIR$/.idea/DSA Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS2/OOPS2.iml" filepath="$PROJECT_DIR$/OOPS2/OOPS2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPSIntro/OOPSIntro.iml" filepath="$PROJECT_DIR$/OOPSIntro/OOPSIntro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPs3/OOPs3.iml" filepath="$PROJECT_DIR$/OOPs3/OOPs3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOps4/OOps4.iml" filepath="$PROJECT_DIR$/OOps4/OOps4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOps5/OOps5.iml" filepath="$PROJECT_DIR$/OOps5/OOps5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOps6/OOps6.iml" filepath="$PROJECT_DIR$/OOps6/OOps6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prime Number Questions/Prime Number Questions.iml" filepath="$PROJECT_DIR$/Prime Number Questions/Prime Number Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecurrsionPatternQue/RecurrsionPatternQue.iml" filepath="$PROJECT_DIR$/RecurrsionPatternQue/RecurrsionPatternQue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecurrsionQue/RecurrsionQue.iml" filepath="$PROJECT_DIR$/RecurrsionQue/RecurrsionQue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecurrsionStingQue/RecurrsionStingQue.iml" filepath="$PROJECT_DIR$/RecurrsionStingQue/RecurrsionStingQue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQRT/SQRT.iml" filepath="$PROJECT_DIR$/SQRT/SQRT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linersearchalgorithm/linersearchalgorithm.iml" filepath="$PROJECT_DIR$/linersearchalgorithm/linersearchalgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quicksort using recurrsion/quicksort using recurrsion.iml" filepath="$PROJECT_DIR$/quicksort using recurrsion/quicksort using recurrsion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testing/testing.iml" filepath="$PROJECT_DIR$/testing/testing.iml" />
+    </modules>
+  </component>
+</project>
