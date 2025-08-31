@@ -10,9 +10,9 @@ public class LL {
     }
     //to insert first element
     public void insertFirst(int value) {
-        Node node = new Node(value);
-        node.next = head;
-        head = node;
+        Node node = new Node(value); //create a node first and give it a value
+        node.next = head; // point that node to the next node
+        head = node;// then assign head to the new node
         if (tail == null){
             tail = head;
 
@@ -21,10 +21,10 @@ public class LL {
     }
     //to display
     public void display(){
-        Node temp = head;
-        while (temp != null){
-            System.out.print(temp.value + " -> ");
-            temp = temp.next;
+        Node temp = head; //make a temprory node initialize it form head
+        while (temp != null){ // when that temp node is null come out of loop
+            System.out.print(temp.value + " -> ");//print value of temp
+            temp = temp.next; // go to the next node
 
         }
         System.out.println("END");
@@ -36,9 +36,9 @@ public class LL {
 return;
         }
         Node node = new Node(value);
-        tail.next = node;
-        tail = node;
-        size++;
+        tail.next = node; // add node after the tail i.e after the current last node
+        tail = node; // then assign new node as tail
+        size++; // increase the size
 
     }
     //to insert at particular index
@@ -52,21 +52,21 @@ return;
             return;
         }
         Node temp = head;
-        for (int i = 1 ; i < index ; i ++){
-            temp = temp.next;
+        for (int i = 1 ; i < index ; i ++){//take the pointer to the index
+            temp = temp.next; // and take our temp node to the index node
         }
-        Node node = new Node(value,temp.next);
+        Node node = new Node(value,temp.next);//make a new node and assign it after the temp node
         temp.next = node;
-        size++;
+        size++;//increase the size
     }
     //to delete first element
     public int deleteFirst(){
         int val = head.value;
-        head = head.next;
+        head = head.next; // just assign current head to the next node thats it
         if (head==null){
             tail = null;
         }
-        size --;
+        size --;//decrease the size
         return val;
     }
     //to get value of particular index
