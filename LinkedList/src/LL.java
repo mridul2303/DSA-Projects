@@ -149,6 +149,49 @@ return;
         return ans;
 
     }
+
+    //to check wheather ll has cycle or not
+//slow and faster pointer approach
+    public boolean isCycle(){
+        Node fast = head;
+        Node slow = head;
+        while (fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+if (fast==slow){
+    return true;
+}
+        }
+        return false;
+    }
+
+
+    // To find from which node cycle is starting
+    public int find() {
+        Node fast = head;
+        Node slow = head;
+
+        //first we check if LL contains cycle or not
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            // Cycle detected
+            if (fast == slow) {
+                slow = head;
+                while (fast != slow) {
+                    fast = fast.next;
+                    slow = slow.next;
+                }
+                return fast.value; // cycle starts here
+            }
+        }
+
+        // No cycle found
+        return -1;
+    }
+
+
     public class Node {
         private int value;
         private Node next;

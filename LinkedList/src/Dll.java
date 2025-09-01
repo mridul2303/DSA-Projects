@@ -1,5 +1,5 @@
 //Doubly Linked List
-public class Dll {
+/*public class Dll {
     Node head;
 
     public void inputFirst(int val){
@@ -62,3 +62,4 @@ last.next = node;
         }
     }
 }
+*/
