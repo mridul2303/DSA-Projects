@@ -21,7 +21,7 @@ public CustomStack(int size){
     }
     public int pop() throws Exception {
         if (isEmpty()){
-            throw new Exception("cannot pop from an emty stack!!");
+            throw new Exception("cannot pop from an empty stack!!");
 
         }
         int removed = data[ptr];
