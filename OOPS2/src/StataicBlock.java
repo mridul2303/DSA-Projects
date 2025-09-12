@@ -12,7 +12,8 @@ Staticblock obj = new Staticblock();
 class Staticblock{
     static int a = 4;
     static int b ;
-    //will only run once when first object is created i.e when the class is loaded at the first time
+    //will only run once when first object is created i.e when the class is
+    // loaded at the first time
      static {
          System.out.println("hi there ");
          b = a*5;

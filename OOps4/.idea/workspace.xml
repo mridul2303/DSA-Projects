@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="948d501d-c75d-4a9f-8157-9d4acc582d8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OOps4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrivateSpecifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProtectedAndPublic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arrays/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/Inputforloop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/Inputforloop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPS2/src/StataicBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPS2/src/StataicBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/src/Bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/src/Bubblesort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Coding journey/DSA Projects/OOps4"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Coding journey/DSA Projects/OOps4&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

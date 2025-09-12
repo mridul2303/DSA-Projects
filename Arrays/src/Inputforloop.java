@@ -7,7 +7,7 @@ public class Inputforloop {
         Scanner in = new Scanner(System.in) ;
         String[] arr = new String[5];
         for (int i = 0 ; i < arr.length; i++){
-            arr[i] = String.valueOf(in.next());
+            arr[i] = in.next();
         }
         System.out.println(Arrays.toString(arr));
     }

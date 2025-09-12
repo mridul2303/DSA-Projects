@@ -4,6 +4,7 @@ public class Interface {
         c1.acc();
         c1.brake();
         c1.start();
+        System.out.println( Car.price);
     }
 }
 
